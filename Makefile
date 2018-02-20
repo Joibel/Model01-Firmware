@@ -7,7 +7,7 @@ ifeq ($(UNAME_S),Darwin)
 SKETCHBOOK_DIR ?= $(HOME)/Documents/Arduino
 PACKAGE_DIR ?= $(HOME)/Library/Arduino15
 else
-SKETCHBOOK_DIR ?= $(HOME)/Arduino
+SKETCHBOOK_DIR ?= $(HOME)/arduino
 PACKAGE_DIR ?= $(HOME)/.arduino15
 endif
 
